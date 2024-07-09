@@ -12,7 +12,7 @@ import { clearVideos, changeSearchTerm } from '../features/youtube/youtubeSlice'
 import { getSearchPageVideos } from '../store/reducers/getSearchPageVideos';
 
 
-// Navbar
+// Navbar 
 
 const Navbar = () => {
 
