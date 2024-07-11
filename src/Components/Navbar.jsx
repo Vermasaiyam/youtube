@@ -33,7 +33,7 @@ const Navbar = () => {
     }
 
     return (
-        <div className='flex justify-between px-4 h-14 items-center bg-[#212121] opacity-95 text-white sticky' >
+        <div className='flex justify-between px-4 h-[60px] items-center bg-[#212121] opacity-95 text-white sticky' >
             <div className='flex gap-2 items-center text-2xl '>
                 <div className='p-8'>
                     <Link to='/' className='flex items-center gap-5'>

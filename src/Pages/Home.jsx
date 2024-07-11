@@ -17,7 +17,8 @@ const Home = () => {
   }, [dispatch])
 
   return (
-    <div className='max-h-screen overflow-auto flex flex-col'>
+    <div className='max-h-screen overflow-auto flex flex-col gap-0'>
+    {/* <div className='max-h-screen overflow-hidden flex flex-col gap-0'> */}
       <div style={{height: "7.5vh"}}>
         <Navbar/>
       </div>
