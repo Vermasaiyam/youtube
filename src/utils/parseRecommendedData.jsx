@@ -4,7 +4,7 @@ import { parseVideoDuration } from './parseVideoDuration';
 import { convertRawtoString } from './convertRawtoString';
 import { timeSince } from './timeSince';
 
-const API_KEY = process.env.REACT_APP_YOUTUBE_DATA_API_KEY;
+const API_KEY = process.env.REACT_APP_YOUTUBE_DATA_API_KEY || "AIzaSyD1q23X3tkUnyvuOocsxiVzGh8p_S4f7So";
 
 export const parseRecommendedData = async (items) => {
 
